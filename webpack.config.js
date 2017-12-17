@@ -1,11 +1,11 @@
 module.exports = {
-  entry: './index.js',
+  entry: './app/main.jsx',
   output: {
     path: __dirname,
-    filename: './bundle.js'
+    filename: './public/bundle.js'
   },
   devtool: 'source-map',
-  modules: {
+  module: {
     rules: [
       {
         test: /\.jsx?$/,
